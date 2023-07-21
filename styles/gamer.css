@@ -1,0 +1,111 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav related styles */
+nav{
+    padding:44px 240px;
+}
+#site-logo{
+    width:87px;
+    height:40px;
+}
+#site-logo-header{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+header nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-button-1{
+    
+    background-color: white;
+    border:0px;
+    border-radius: 8px;
+    padding:17px 24px;
+}
+nav div button a{
+    text-decoration:none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+#nav-button-2{
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding:16px 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border:none;
+}
+.nav-button-icon{
+    align-items: center;
+    position:relative;
+    top:10px;
+}
+/* main related styles */
+/* banner-1 */
+#banner-1{
+    background-image: url(../images/Group\ 18.png);
+    background-repeat: no-repeat;
+    background-position:right top;
+    margin-right:200px;
+}
+
+#banner-1 h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#banner-1-text{
+    background-image:url(../images/Group\ 14.png);
+    background-repeat:no-repeat;
+    height:500px;
+    width:500px;
+    padding:148px 240px 148px 240px;
+}
+#banner-1-text h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    
+}
+#banner-1-text h1{
+        /* text-align: center; */
+        font-size: 95px;
+        font-weight: 800;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+ol.banner-list{
+    list-style-type:none;
+}
+.banner-1-buttons button {
+    border:none;
+    border-radius:40px;
+    padding:20px 40px;
+}
+#banner-1-button-1{
+    background-color: #FF42A5;
+}
+#banner-1-button-2{
+    background-color: #4EC5F7;
+}
+.banner-1-buttons button a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* banner-2 */
